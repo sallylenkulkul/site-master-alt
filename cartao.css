@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-decoration: none;
-} 
+}
 
 .a {
     color: black;
@@ -50,30 +50,38 @@
     }
 }
 
-.invisivel2 { 
-     opacity: 0;
-     margin-left: 47%; 
-     background-color:white; 
-     border-radius: 100%; 
-     width: 100px; 
-     height: 100px; 
-     display:flex; 
-     justify-content: center;
-     justify-items: center;
-    
-    } 
-.invisivel2:hover
- { 
+.invisivel2 {
+    opacity: 0;
+    margin-left: 47%;
+    background-color: white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.invisivel2:hover {
     animation: abrindo1 1s linear forwards;
- }
- @keyframes abrindo1 {
-     0%{ opacity: 0;} 
-     100%{opacity: 1;} 
-    } 
- .flecha { 
-    width: 15%; 
+}
+
+@keyframes abrindo1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flecha {
+    width: 15%;
     height: 15%;
- }
+}
+
 .gira1 {
     animation: giraa 1s forwards;
 }
@@ -125,6 +133,7 @@ body {
     width: 20px;
 
 }
+
 .escrita1:hover {
     cursor: pointer;
     color: blueviolet;
@@ -188,14 +197,13 @@ body {
     width: 30px;
 }
 
-.pedro
-{
+.pedro {
     height: 70px;
     width: 200px;
     margin-top: 10px;
 }
-.embaixo
-{
+
+.embaixo {
     width: 90%;
     height: 80vh;
     margin-top: 80px;
@@ -203,20 +211,20 @@ body {
     display: flex;
     flex-direction: row;
 }
-.retan1
-{
+
+.retan1 {
     width: 475px;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
-.retan2
-{
+
+.retan2 {
     width: 475px;
     height: 100%;
 }
-.retan3
-{
+
+.retan3 {
     width: 475px;
     height: 100%;
     display: flex;
@@ -226,17 +234,24 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.Dados
-{
-    font-size: 30px;
+
+.Dados {
+    font-size: 25px;
 }
-.numero
-{
+
+.numero {
     margin-top: 5px;
     height: 30px;
+    font-size: 16px;
 }
-.valicode
-{
+
+.Numero {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.valicode {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -244,70 +259,109 @@ body {
     height: 50px;
     margin-top: 50px;
 }
-.validade
-{
+
+.validade {
     display: flex;
     flex-direction: column;
+    font-size: 16px;
+
 }
-.vali
-{
+
+.vali {
     height: 30px;
+    font-size: 16px;
+
 }
-.CVV
-{
+
+.CVV {
     height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+
 }
-.codigo
-{
+
+.opPag {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.codigo {
     margin-left: 135px;
+    font-size: 16px;
+    font-weight: bold;
+
 }
-.Nome
-{
+
+.Nome {
     margin-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+
 }
-.nome
-{
+
+.nome {
     height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+
 }
-.cpf
-{
+
+.cpf {
     height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+
 }
-.CPF
-{
+
+.CPF {
     margin-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+
 }
-.teda
-{
+
+.teda {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 70px;
-    margin-top: 40px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+
 }
-.telefone
-{
+
+.telefone {
     display: flex;
     flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+
 }
-.data
-{
+
+.data {
     margin-left: 135px;
+    font-size: 16px;
+    font-weight: bold;
+
 }
-.para
-{
+
+.para {
     width: 100%;
-    height: 45px;
+    height: 40px;
     margin-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+
 }
-.borda
-{
+
+.borda {
     width: 100%;
     height: 500px;
 }
-.parte1
-{
+
+.parte1 {
     width: 100%;
     height: 12%;
     border: solid;
@@ -319,8 +373,8 @@ body {
     align-content: center;
     justify-content: center;
 }
-.parte2
-{
+
+.parte2 {
     width: 100%;
     height: 22%;
     border: solid;
@@ -332,8 +386,8 @@ body {
     justify-content: center;
     flex-direction: row;
 }
-.parte3
-{
+
+.parte3 {
     width: 100%;
     height: 22%;
     border: solid;
@@ -341,36 +395,36 @@ body {
     display: flex;
     flex-direction: column;
 }
-.parte4
-{
+
+.parte4 {
     width: 100%;
     height: 22%;
     border: solid;
     border-color: rgb(197, 199, 197);
 }
-.parte5
-{
+
+.parte5 {
     width: 100%;
     height: 22%;
     border: solid;
     border-color: rgb(197, 199, 197);
 }
-.peq
-{
+
+.peq {
     font-size: 15px;
     display: flex;
     margin-right: 150px;
     font-weight: 100;
 }
-.gran
-{
+
+.gran {
     display: flex;
     margin-right: 110px;
     font-size: 22px;
     margin-top: 6px;
 }
-.excrita
-{
+
+.excrita {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -378,109 +432,109 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-.num
-{
-    
+
+.num {
+
     display: flex;
     margin-top: 70px;
     margin-left: 65px;
     font-weight: 200;
     font-size: 20px;
 }
-.mini
-{
+
+.mini {
     width: 60px;
     height: 40px;
     display: flex;
     margin-top: 1px;
 
 }
-.ca
-{
+
+.ca {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
     margin-left: 20px;
 }
-.forma
-{
+
+.forma {
     font-size: 15px;
     margin-left: 20px;
     margin-top: 14px;
     font-weight: 100;
 }
-.cc
-{
+
+.cc {
     font-size: 22px;
     margin-top: 9px;
     margin-left: 5px;
 }
-.tempo
-{
+
+.tempo {
     font-size: 15px;
     margin-top: 32px;
     margin-left: 20px;
     font-weight: 100;
 }
-.util
-{
+
+.util {
     font-size: 22px;
     margin-left: 20px;
     margin-top: 20px;
 }
-.parte5
-{
+
+.parte5 {
     display: flex;
     flex-direction: column;
     background-color: rgb(233, 230, 230);
 }
-.ult1
-{
+
+.ult1 {
     font-size: 15px;
     margin-top: 20px;
     margin-left: 20px;
     font-weight: 100;
     background-color: rgb(233, 230, 230);
 }
-.ult2
-{
+
+.ult2 {
     display: flex;
     flex-direction: row;
     background-color: rgb(233, 230, 230);
 }
-.totall
-{
+
+.totall {
     font-size: 15px;
     margin-top: 20px;
     margin-left: 20px;
     font-weight: 100;
     background-color: rgb(233, 230, 230);
 }
-.deze
-{
+
+.deze {
     font-size: 23px;
     font-weight: 900;
     margin-top: 15px;
     margin-left: 3px;
     background-color: rgb(233, 230, 230);
 }
-button
-{
+
+button {
     width: 450px;
     height: 70px;
     font-size: 20px;
     background-color: greenyellow;
 }
-.tele
-{
+
+.tele {
     height: 30px;
 }
-.date
-{
+
+.date {
     height: 30px;
 }
-.cartao
-{
+
+.cartao {
     width: 300px;
     height: 200px;
     display: flex;

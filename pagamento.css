@@ -217,6 +217,11 @@ body {
     font-size: 20px;
     justify-content: space-around;
 }
+
+.op {
+    font-size: 17px;
+    font-weight: bold;
+}
 .escrita1:hover
 {
     cursor: pointer;

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informações de pagamento</title>
     <link rel="stylesheet" href="cartao.css">
-</head> 
+</head>
+
 <body>
     <div class="teto" id="teto">
         <a href="principal.html"><img src="ScriptStorm.png" height="70" width="200"></a>
@@ -27,16 +29,16 @@
                 </div>
             </a>
         </div>
-    </div> 
+    </div>
     <br>
-    <div class="invisivel2" >
-        <img src="flecha.png"  class="flecha" id="flecha" onclick="Mudarestado2('flecha'); Mudarestado('teto')"> 
+    <div class="invisivel2">
+        <img src="flecha.png" class="flecha" id="flecha" onclick="Mudarestado2('flecha'); Mudarestado('teto')">
     </div>
     <div class="embaixo">
         <div class="retan1">
             <div class="Dados">Dados do Titular do Cartão</div>
             <br>
-            <div class="Numero">Numero do Cartão</div>
+            <div class="Numero">Número do Cartão</div>
             <input type="text" class="numero">
             <div class="valicode">
                 <div class="validade">
@@ -48,10 +50,12 @@
                     <input type="text" class="CVV">
                 </div>
             </div>
-            <div class="Nome">Nome Completo</div>
+            <div class="Nome">Nome completo</div>
             <input type="text" class="nome">
+
             <div class="CPF">CPF</div>
             <input type="text" class="cpf">
+
             <div class="teda">
                 <div class="telefone">
                     Telefone
@@ -61,17 +65,21 @@
                     Data de Nascimento
                     <input type="text" class="date">
                 </div>
-            </div>  
-            Selecione um Estado para entrega:
-            <select id="estado" class="para">
-            <option>1x de R$19,90 </option>
-            <option>2x de R$9,95 sem juros</option>
-            <option>3x de R$6,64 sem juros</option>
-            <option>4x de R$4,98 sem juros</option>
-            </select>
+            </div>
+            <br>
+            <div class="opPag">
+                Selecione a opção de pagamento:
+                <select id="estado" class="para">
+                    <option>1x de R$80,00 </option>
+                    <option>2x de R$40,00 </option>
+                    <option>6x de R$13,50 </option>
+                    <option>12x de R$7,00 </option>
+                </select>
+            </div>
+            
         </div>
         <div class="retan2">
-            <img src="cartaozao.png" class="cartao" >
+            <img src="cartaozao.png" class="cartao">
         </div>
         <div class="retan3">
             <div class="borda">
@@ -107,4 +115,5 @@
     </div>
 </body>
 <Script src="animateto.js"></Script>
+
 </html>
